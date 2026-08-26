@@ -34,22 +34,22 @@ public class AdGifConfig {
     public String gifPath = "adgif:textures/gui/ad.gif";
 
     /** Size multiplier applied to the gif's native pixel size. 1.0 = original size. */
-    public double scale = 1.0;
+    public double scale = 0.5;
 
     /** How long the overlay stays on screen, in seconds. */
     public double durationSeconds = 7.0;
 
     /** Chance [0..1] to trigger at a random moment. */
-    public double chanceRandom = 0.40;
+    public double chanceRandom = 0.1;
 
     /** Chance [0..1] to trigger when the player takes damage. */
-    public double chanceOnDamage = 0.60;
+    public double chanceOnDamage = 0.5;
 
     /** Chance [0..1] to trigger when the player attacks something. */
-    public double chanceOnAttack = 0.50;
+    public double chanceOnAttack = 0.5;
 
     /** Chance [0..1] to trigger on a generic action (open/use/break block, use item). */
-    public double chanceOnAction = 0.15;
+    public double chanceOnAction = 0.1;
 
     /** How often (in seconds) the "random moment" roll is attempted. */
     public double randomCheckIntervalSeconds = 30.0;
