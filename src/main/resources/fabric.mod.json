@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "adgif",
+	"version": "${version}",
+	"name": "AdGif",
+	"description": "Показывает случайную gif-рекламу посреди экрана и на время замораживает игрока.",
+	"authors": [
+		"trollmods"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.trollmods.adgif.AdGifClient"
+		],
+		"modmenu": [
+			"com.trollmods.adgif.AdGifModMenu"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
