@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "adgif",
 	"version": "${version}",
-	"name": "AdGif",
-	"description": "Показывает случайную gif-рекламу посреди экрана и на время замораживает игрока.",
+	"name": "MusorDrop",
+	"description": "Показывает рекламу мусор дроп рандомно. можно настроить",
 	"authors": [
-		"trollmods"
+		"p1Miska"
 	],
 	"license": "MIT",
 	"environment": "client",
