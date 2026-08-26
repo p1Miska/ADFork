@@ -19,7 +19,7 @@ dependencies {
 	// Yarn mappings - стабильные мэппинги для 1.21.11.
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-	modImplementation "net.fabricmc:fabric-api:fabric-api:${project.fabric_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Mod Menu integration (только для компиляции: без установленного Mod Menu мод работает как обычно)
 	modCompileOnly "com.terraformersmc:modmenu:${project.modmenu_version}"
